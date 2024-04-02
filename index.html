@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="current-info">
+                <div class="date-container">
+                    <div class="time" id="time"></div>
+                    <div class="date" id="date"></div>
+                    <div class="others" id="current-weather-items"></div>
+                </div>
+                <div class="place-container">
+                    <div class="time-zone" id="time-zone">Asia/Kolkata</div>
+                    <div id="country" class="country">IN</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="future-forecast">
+            <div class="today" id="current-temp">
+                <div class="icon"><i class="fas fa-sun"></i></div>
+                <div class="other">
+                    <div class="day">Monday</div>
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div>
+                </div>
+            </div>
+            <div class="weather-forecast" id="weather-forecast">
+                <!-- Tuesday -->
+                <div class="weather-forecast-item tuesday">
+                    <div class="day">Tue</div>
+                    <div class="icon"><i class="fas fa-cloud"></i></div>
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div>
+                </div>
+                <!-- Wednesday -->
+                <div class="weather-forecast-item wednesday">
+                    <div class="day">Wed</div>
+                    <div class="icon"><i class="fas fa-sun"></i></div>
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div>
+                </div>
+                <!-- Thursday -->
+                <div class="weather-forecast-item thursday">
+                    <div class="day">Thu</div>
+                    <div class="icon"><i class="fas fa-cloud-showers-heavy"></i></div>
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div>
+                </div>
+                <!-- Friday -->
+                <div class="weather-forecast-item friday">
+                    <div class="day">Fri</div>
+                    <div class="icon"><i class="fas fa-cloud-rain"></i></div>
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div>
+                </div>
+                <!-- Saturday -->
+                <div class="weather-forecast-item saturday">
+                    <div class="day">Sat</div>
+                    <div class="icon"><i class="fas fa-sun"></i></div>
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div>
+                </div>
+                <!-- Sunday -->
+                <div class="weather-forecast-item sunday">
+                    <div class="day">Sun</div>
+                    <div class="icon"><i class="fas fa-cloud-sun"></i></div>
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Weather App. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
